@@ -6,6 +6,15 @@ function getEven(arr) {
             Output: [4,8,90]
 
         Write you code below */
+        let arr1=[];
+        for(i in arr){
+            if(i%2===0){
+                arr.push(i)
+            }   
+        }
+        return arr
+
+        }
         const even_num = arr.filter(num => {
         return num % 2 === 0;
     });
